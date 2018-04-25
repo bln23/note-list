@@ -6,15 +6,13 @@ box-sizing: border-box;
 
 body {
   background-color: #00d8c3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .List {
+  padding: 30px;
   background-color: white;
   width: 250px;
-  position: absolute;
+  margin: 100px auto 0 auto;
   color: white;
   box-shadow:
     0 5px 15px 1px rgba(0,0,0,0.6),
@@ -24,6 +22,7 @@ body {
 .Notes {
   color: #00d8c3;
   width: 250px;
+  border-top: 1px solid #00d8c3;
 }
 
 .AddNotes {
